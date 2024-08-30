@@ -20,7 +20,7 @@ const routes: {
       element: (
         <Landing />
       ),
-      path: '/'
+    path: '/',
     },
     {
       element: (
@@ -40,6 +40,7 @@ const routes: {
     //   ),
     //   path: '/v1/schedule'
     // },
+
     {
       element: (
         <AuthLogin />
