@@ -1,0 +1,10 @@
+@import '../../../styles/colors.scss';
+
+.toc-entry {
+    transition-duration: 0.1s!important;
+    &:hover {
+        text-decoration: underline;
+        cursor: pointer;
+        color: #0067FF!important;
+    }
+}

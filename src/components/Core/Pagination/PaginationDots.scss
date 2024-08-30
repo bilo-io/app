@@ -1,0 +1,29 @@
+.pagination-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.1rem;
+    padding: 0.5rem;
+
+    .dot-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dot {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        transition: transform 0.3s ease-in-out;
+
+        &:hover {
+            cursor: pointer;
+            transform: scale(1.2);
+        }
+
+        &.active {
+            transform: scale(1.2);
+        }
+    }
+}

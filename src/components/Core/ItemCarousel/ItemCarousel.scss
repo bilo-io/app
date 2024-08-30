@@ -1,0 +1,25 @@
+/* ItemCarousel.css */
+.item-carousel {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.item-carousel__item {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.item-carousel__item.fade-out {
+    opacity: 0;
+}
+
+.item-carousel__item.fade-in {
+    opacity: 1;
+}

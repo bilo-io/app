@@ -1,0 +1,13 @@
+yarn add v1.22.17
+[1/4] Resolving packages...
+warning @storybook/react-webpack5 > @storybook/builder-webpack5 > fork-ts-checker-webpack-plugin > memfs@3.6.0: this will be v4
+warning @storybook/react-webpack5 > @storybook/builder-webpack5 > webpack-dev-middleware > memfs@3.6.0: this will be v4
+[2/4] Fetching packages...
+[3/4] Linking dependencies...
+warning " > @testing-library/user-event@14.4.3" has unmet peer dependency "@testing-library/dom@>=7.21.4".
+warning "react-scripts > eslint-config-react-app > eslint-plugin-flowtype@8.0.3" has unmet peer dependency "@babel/plugin-syntax-flow@^7.14.5".
+warning "react-scripts > eslint-config-react-app > eslint-plugin-flowtype@8.0.3" has unmet peer dependency "@babel/plugin-transform-react-jsx@^7.14.9".
+warning "eslint-plugin-storybook > @typescript-eslint/utils@5.62.0" has unmet peer dependency "eslint@^6.0.0 || ^7.0.0 || ^8.0.0".
+warning "@storybook/react-webpack5 > @storybook/preset-react-webpack > @babel/preset-flow@7.22.5" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning " > @storybook/preset-create-react-app@7.1.1" has unmet peer dependency "@babel/core@*".
+warning " > eslint-plugin-storybook@0.6.13" has unmet peer dependency "eslint@>=6".

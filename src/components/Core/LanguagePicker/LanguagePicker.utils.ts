@@ -1,0 +1,65 @@
+export const languageOptions = [
+  {
+    flag: 'za',
+    icon: '🇿🇦',
+    iconUrl: 'https://hatscripts.github.io/circle-flags/flags/za.svg',
+    label: 'Afrikaans',
+    value: 'af',
+  },
+  {
+    flag: 'hr',
+    icon: '🇿🇦',
+    iconUrl: 'https://hatscripts.github.io/circle-flags/flags/hr.svg',
+    label: 'Croatia',
+    value: 'hr',
+  },
+  {
+    flag: 'de',
+    icon: '🇩🇪',
+    iconUrl: 'https://hatscripts.github.io/circle-flags/flags/de.svg',
+    label: 'German',
+    value: 'de',
+  },
+  {
+    flag: 'gb',
+    icon: '🇬🇧',
+    iconUrl: 'https://hatscripts.github.io/circle-flags/flags/uk.svg',
+    label: 'English',
+    value: 'en',
+  },
+  {
+    flag: 'es',
+    icon: '🇪🇸',
+    iconUrl: 'https://hatscripts.github.io/circle-flags/flags/es.svg',
+    label: 'Spanish',
+    value: 'es',
+  },
+  {
+    flag: 'fr',
+    icon: '🇫🇷',
+    iconUrl: 'https://hatscripts.github.io/circle-flags/flags/fr.svg',
+    label: 'French',
+    value: 'fr',
+  },
+  {
+    flag: 'it',
+    icon: '🇮🇹',
+    iconUrl: 'https://hatscripts.github.io/circle-flags/flags/it.svg',
+    label: 'Italian',
+    value: 'it',
+  },
+  {
+    flag: 'jp',
+    icon: '🇯🇵',
+    iconUrl: 'https://hatscripts.github.io/circle-flags/flags/jp.svg',
+    label: 'Japanese',
+    value: 'jp',
+  },
+  {
+    flag: 'nl',
+    icon: '🇳🇱',
+    iconUrl: 'https://hatscripts.github.io/circle-flags/flags/nl.svg',
+    label: 'Dutch',
+    value: 'nl',
+  }
+];

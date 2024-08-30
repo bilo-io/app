@@ -1,0 +1,17 @@
+.sliding-steps-container {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+.sliding-steps-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.sliding-step {
+    flex: 0 0 100%;
+    width: 100%;
+    height: fit-content;
+}

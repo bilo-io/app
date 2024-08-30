@@ -1,0 +1,26 @@
+.info-panel {
+    position: fixed;
+    width: calc(100vw - 4rem);
+    height: calc(100vh - 4rem);
+    margin: 2rem;
+    background-color: #eee;
+    border-radius: 8px;
+    box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+}
+.info-panel.open {
+    top: 0;
+    transition: all .3s ease-in-out;
+}
+
+.info-panel.closed {
+    top: 100%;
+    transition: all .3s ease-in-out;
+}
+
+.info-panel.dark {
+    color: #c92b52;
+}
+
+.info-panel.light {
+    color: #0067FF;
+}

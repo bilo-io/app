@@ -1,0 +1,248 @@
+// ref: styling headers: https://stackoverflow.com/questions/5410066/what-are-the-default-font-sizes-in-pixels-for-the-html-heading-tags-h1-h2/70720104#70720104
+
+@import '../../../styles/_colors.scss';
+
+.ce-example {
+    font-size: 16.2px;
+}
+
+.ce-example__header {
+    height: 50px;
+    line-height: 50px;
+    display: flex;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.ce-example__header a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.ce-example__header-logo {
+    font-weight: bold;
+}
+
+.ce-example__header-menu {
+    margin-left: auto;
+}
+
+@media all and (max-width: 730px) {
+    .ce-example__header-menu {
+        margin-left: 0;
+        margin-top: 10px;
+        flex-basis: 100%;
+        font-size: 14px;
+    }
+}
+
+.ce-example__header-menu a {
+    margin-left: 20px;
+}
+
+@media all and (max-width: 730px) {
+    .ce-example__header-menu a {
+        margin-left: 0;
+        margin-right: 15px;
+    }
+}
+
+.ce-example__content {
+    max-width: 1100px;
+    margin: 0 auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ce-example__content--small {
+    max-width: 500px;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    padding: 0 15px;
+}
+
+.ce-example__output {
+    background: #1B202B;
+    overflow-x: auto;
+    padding: 0 30px;
+}
+
+.ce-example__output-content {
+    max-width: 650px;
+    margin: 30px auto;
+    color: #ABADC3;
+    font-family: 'PT Mono', Menlo, Monaco, Consolas, Courier New, monospace;
+    font-size: 13.3px;
+}
+
+.ce-example__output-content:empty {
+    display: none;
+}
+
+.ce-example__button {
+    display: block;
+    margin: 50px auto;
+    max-width: 180px;
+    background: #4A9DF8;
+    padding: 17px 30px;
+    box-shadow: 0 6px 4px -4px rgba(137, 207, 255, 0.77);
+    cursor: pointer;
+    border-radius: 31px;
+    color: #fff;
+    font-family: 'PT Mono', Menlo, Monaco, Consolas, Courier New, monospace;
+    text-align: center;
+}
+
+.ce-example__button:hover {
+    background: #3D8DE5;
+}
+
+.ce-example__output-footer {
+    padding: 30px 0;
+    font-size: 14.2px;
+    letter-spacing: 0.3px;
+    text-align: center;
+}
+
+.ce-example__output-footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media all and (max-width: 730px) {
+
+    .ce-example__header,
+    .ce-example__content {
+        padding: 0 20px;
+    }
+}
+
+/**
+ * JSON highlighter
+ */
+.sc_attr {
+    color: rgb(148, 162, 192);
+}
+
+.sc_key {
+    color: rgb(190, 213, 255);
+}
+
+.sc_toolname {
+    color: rgb(15, 205, 251);
+}
+
+.sc_tag {
+    color: rgb(4, 131, 216);
+}
+
+.sc_bool {
+    color: rgb(247, 60, 173);
+}
+
+.ce-example .ce-block:first-of-type h2.ce-header {
+    font-size: 50px;
+}
+
+.ce-example h2.ce-header {
+    font-size: 30px;
+}
+
+.ce-example h3.ce-header {
+    font-size: 24px;
+}
+
+.ce-example h4.ce-header {
+    font-size: 18px;
+}
+
+
+// Bilo custom overrides
+
+.header-style {
+    // border-bottom: 1px solid #E8E8EB;
+    height: 50px;
+    line-height: 50px;
+    display: flex;
+    // padding: 0 30px;
+    margin-bottom: 2rem !important;
+    flex-wrap: wrap;
+}
+
+h1 {
+    @extend .header-style;
+    // height: 3rem !important;
+    // line-height: 2.5rem !important;
+    font-size: 2rem !important;
+    font-weight: bold;
+    margin-block-start: .67rem;
+    margin-block-end: .67rem;
+}
+
+h2 {
+    @extend .header-style;
+    // height: 2.6rem !important;
+    // line-height: 2.6rem !important;
+    font-size: 1.5rem !important;
+    font-weight: bold;
+    margin-block-start: .83rem!important;
+    margin-block-end: .83rem!important;
+}
+
+h3 {
+    @extend .header-style;
+    // height: 2.3rem !important;
+    // line-height: 2.3rem !important;
+    font-size: 1.17rem !important;
+    font-weight: bold;
+    margin-block-start: 1rem!important;
+    margin-block-end: 1rem!important;
+}
+
+h4 {
+    @extend .header-style;
+    // height: 2.1rem !important;
+    // line-height: 2.1rem !important;
+    font-size: 1.00rem !important;
+    font-weight: bold !important;
+    margin-block-start: 1.33rem !important;
+    margin-block-end: 1.33rem !important;
+}
+
+h5 {
+    @extend .header-style;
+    // height: 1.9rem !important;
+    // line-height: 1.9rem !important;
+    font-size: 0.83rem !important;
+    font-weight: bold !important;
+    margin-block-start: 1.67rem !important;
+    margin-block-end: 1.67rem !important;
+}
+
+h6 {
+    @extend .header-style;
+    // height: 1.7rem !important;
+    // line-height: 1.7rem !important;
+    font-size: 0.67rem !important;
+    font-weight: bold !important;
+    margin-block-start: 2.33rem !important;
+    margin-block-end: 2.33rem !important;
+}
+
+.ce-toolbar__plus {
+    color: $col-primary;
+}
+
+.ce-toolbar__settings-btn {
+    color: $col-primary;
+    // &:hover {
+    //     background-color: $col-primary;
+    // }
+}
+
+.editor-container {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 14px;
+    line-height: 1.5em;
+    margin: 0;
+}

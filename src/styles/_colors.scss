@@ -1,0 +1,115 @@
+$col-vision-black: #111111;
+$col-vision-dark: #303030;
+$col-vision-blue: #0067FF;
+$col-vision-cyan: #0091ad;
+$col-vision-sky: #3ac9e6;
+$col-angelic-purple: #8e0ea4;
+
+$col-modal-background: #506091;
+$col-bg-gradient-start: #2F395C;
+$col-bg-gradient-end: #212A47;
+$col-card-gradient-start: #3D4C79;
+$col-card-gradient-end: #2F395C;
+
+$bg-gradient-card: linear-gradient(to bottom right, $col-card-gradient-start, $col-card-gradient-end);
+
+$bg-gradient-dark: linear-gradient(to bottom right, $col-bg-gradient-start, $col-bg-gradient-end);
+$bg-gradient-light: linear-gradient(to bottom right, #fff, $col-bg-gradient-start);
+
+$col-active: $col-vision-blue;
+$col-primary: $col-active;
+$col-secondary: #aaa;
+$col-success: #3adb76;
+$col-warning: #ffae00;
+$col-error: #e94b35;
+
+$col-lightgrey: #eeeef3;
+$col-text: #333;
+$col-white: #fff;
+
+.gradient-background {
+  background: linear-gradient(to bottom, $col-vision-blue, $col-angelic-purple);
+}
+
+// Define theme names and corresponding colors
+$themes: ( // Vibrant
+  vibrantTheme1: (#FFEBEE, #581845),
+  vibrantTheme2: (#B2EBF2, #581845),
+  vibrantTheme3: (#FFF3E0, #FF5722),
+  vibrantTheme4: (#EDE7F6, #673AB7),
+  vibrantTheme5: (#E1F5FE, #00BCD4),
+  vibrantTheme6: (#FF5733, #F9DC5C),
+  vibrantTheme7: (#FFC300, #FF5733),
+  vibrantTheme8: (#FF5733, #33FFBD),
+  vibrantTheme9: (#FF33FF, #33FFBD),
+  vibrantTheme10: (#33FFBD, #FF33FF),
+
+  // Classic
+  classicTheme1: (#ECF0F1, #2C3E50),
+  classicTheme2: (#BDC3C7, #34495E),
+  classicTheme3: (#E0E0E0, #7F8C8D),
+  classicTheme4: (#D5D8DC, #34495E),
+  classicTheme5: (#E5E8E8, #2C3E50),
+  // Neon
+  neonTheme1: (#000000, #FFFFFF),
+  neonTheme2: (#2F4F4F, #FF4500),
+  neonTheme3: (#800080, #DA70D6),
+  neonTheme4: (#4B0082, #DA70D6),
+  neonTheme5: (#00FF7F, #DA70D6),
+  neonTheme6: (#2A1B2E, #6D30A6),
+  neonTheme7: (#1E1A2F, #FFD700),
+  neonTheme8: (#1D1F2A, #00FF00),
+  neonTheme9: (#1F1B2B, #FF1493),
+  neonTheme10: (#1b1828, #00FFFF),
+  neonTheme11: (#2A1B2E, #FF5733),
+  neonTheme12: (#1E1A2F, #FFC300),
+  neonTheme13: (#1D1F2A, #33FFBD),
+  neonTheme14: (#1F1B2B, #FF33FF),
+  neonTheme15: (#1b1828, #33FFBD),
+
+  // Light
+  lightTheme1: (#FAFAFA, #2C3E50),
+  lightTheme2: (#ECF0F1, #34495E),
+  lightTheme3: (#F0F0F0, #7F8C8D),
+  lightTheme4: (#F7F9F9, #34495E),
+  lightTheme5: (#F2F4F4, #2C3E50),
+  // Dark
+  darkTheme1: (#1C2833, #ECF0F1),
+  darkTheme2: (#212F3D, #ECF0F1),
+  darkTheme3: (#1C2833, #ECF0F1),
+  darkTheme4: (#17202A, #ECF0F1),
+  darkTheme5: (#212F3D, #ECF0F1),
+  darkTheme6: (#1C2833, #ECF0F1),
+  darkTheme7: (#2C3E50, #566573),
+  darkTheme8: (#17202A, #34495E),
+  darkTheme9: (#17202A, #34495E),
+  darkTheme10: (#17202A, #34495E),
+  darkTheme11: (#1C2833, #273746),
+  darkTheme12: (#17202A, #2E4053),
+  darkTheme13: (#1C2833, #273746),
+  darkTheme14: (#1C2833, #273746),
+  darkTheme15: (#17202A, #ECF0F1),
+  darkTheme16: (#2C3E50, #ECF0F1),
+  darkTheme17: (#17202A, #ECF0F1),
+  darkTheme18: (#1C2833, #ECF0F1),
+  darkTheme19: (#212F3D, #ECF0F1),
+  darkTheme20: (#17202A, #ECF0F1));
+
+// Mixin to generate theme styles
+@mixin themeStyles($theme-name, $background-color, $color) {
+  &.#{$theme-name} {
+    background-color: $background-color;
+    color: $color;
+  }
+}
+
+// Apply mixins for each theme
+@each $theme-name,
+$colors in $themes {
+  $background-color: nth($colors, 1);
+  $color: nth($colors, 2);
+
+  .#{$theme-name} {
+    @include themeStyles($theme-name, $background-color, $color);
+  }
+}

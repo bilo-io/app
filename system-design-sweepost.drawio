@@ -1,0 +1,179 @@
+<mxfile host="65bd71144e">
+    <diagram id="hWmAsYz565bGcmy6tSPV" name="Page-1">
+        <mxGraphModel dx="1254" dy="671" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="16" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="679" y="475" width="198" height="99" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;b&gt;AIService&lt;br&gt;&lt;br&gt;&lt;/b&gt;(Python based models)" style="rounded=0;whiteSpace=wrap;html=1;" parent="16" vertex="1">
+                    <mxGeometry width="198" height="99.00000000000001" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png;" parent="16" vertex="1">
+                    <mxGeometry x="174.24" y="4.95" width="17.703529411764706" height="17.703529411764706" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="" style="shape=mxgraph.signs.healthcare.brain;html=1;pointerEvents=1;fillColor=#f5f5f5;strokeColor=#666666;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontColor=#333333;" parent="16" vertex="1">
+                    <mxGeometry x="2.7007200000000005" y="4.95" width="21.05928" height="19.8" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="90" y="200" width="320" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;b&gt;Core&lt;/b&gt; (interfaces &amp;amp; utils)" style="rounded=0;whiteSpace=wrap;html=1;" parent="19" vertex="1">
+                    <mxGeometry width="320" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/5968/5968381.png;" parent="19" vertex="1">
+                    <mxGeometry x="288" y="8.34" width="19.646315789473686" height="19.646315789473686" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="" style="group;labelBorderColor=none;fillColor=none;strokeColor=none;dashed=1;dashPattern=1 1;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="483" y="280" width="405" height="39" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="" style="group;fillColor=#FFFFFF;fontColor=#333333;strokeColor=#666666;container=0;" parent="44" vertex="1" connectable="0">
+                    <mxGeometry width="405" height="39" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;b&gt;Auth &amp;amp; Storage&lt;br&gt;&lt;/b&gt;(users, SSO, storage)" style="rounded=0;whiteSpace=wrap;html=1;container=0;" parent="44" vertex="1">
+                    <mxGeometry width="405" height="39" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/5968/5968381.png;container=0;" parent="44" vertex="1">
+                    <mxGeometry x="373.0022461538462" y="9.75" width="19.5" height="19.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#1D1C1D;container=0;" parent="44" vertex="1">
+                    <mxGeometry x="22.5" y="14.14" width="16.5" height="15.11" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn4.iconfinder.com/data/icons/google-i-o-2016/512/google_firebase-2-512.png;container=0;" parent="44" vertex="1">
+                    <mxGeometry x="343.75016923076925" y="4.875" width="29.25" height="29.25" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="314" y="280" width="100" height="290" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;b&gt;Web API&lt;br&gt;&lt;/b&gt;(Gateway)" style="rounded=0;whiteSpace=wrap;html=1;container=0;fillColor=#18141D;" parent="45" vertex="1">
+                    <mxGeometry width="100" height="290" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/5968/5968381.png;container=0;" parent="45" vertex="1">
+                    <mxGeometry x="75" y="14.500000000000002" width="16.666666666666664" height="16.666666666666664" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.iconscout.com/icon/free/png-256/free-node-js-1174925.png;container=0;" parent="45" vertex="1">
+                    <mxGeometry x="46.00333333333332" y="14.500000000000002" width="16.666666666666664" height="16.666666666666664" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="" style="group;dashed=1;strokeColor=default;strokeWidth=5;dashPattern=1 2;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="480" y="377" width="405" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="" style="group;fillColor=#FFFFFF;fontColor=#333333;strokeColor=#666666;container=0;" parent="49" vertex="1" connectable="0">
+                    <mxGeometry width="405" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="&lt;b&gt;PaymentsService&lt;br&gt;&lt;/b&gt;integrates into required payment providers" style="rounded=0;whiteSpace=wrap;html=1;container=0;" parent="49" vertex="1">
+                    <mxGeometry width="405" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" style="edgeStyle=none;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="9" target="6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" style="edgeStyle=none;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.321;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="6" target="9" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.989;entryY=0.696;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="85" target="9" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" style="edgeStyle=none;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="85" target="51" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="522" y="319" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="85" value="&lt;b&gt;AIService (TensorFlow.js)&lt;br&gt;&lt;br&gt;&lt;/b&gt;(Javascript based AI models)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#18141D;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="475" width="178" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" style="edgeStyle=none;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="8" target="51" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" style="edgeStyle=none;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=-0.001;entryY=0.655;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="9" target="85" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="480" y="550" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="94" style="edgeStyle=none;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" parent="1" source="51" target="85" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="618" y="375" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="95" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="51" target="8" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/5968/5968381.png;container=0;" parent="1" vertex="1">
+                    <mxGeometry x="621" y="480" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.iconscout.com/icon/free/png-256/free-node-js-1174925.png;container=0;" parent="1" vertex="1">
+                    <mxGeometry x="601" y="480" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="139" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="124" y="284" width="160" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="&lt;b&gt;Web App&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="139" vertex="1">
+                    <mxGeometry width="160" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="131" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/5968/5968381.png;" parent="139" vertex="1">
+                    <mxGeometry x="136.5437593984963" y="10" width="16.842105263157894" height="16.842105263157894" as="geometry"/>
+                </mxCell>
+                <mxCell id="132" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png;" parent="139" vertex="1">
+                    <mxGeometry x="113.68661654135342" y="11.309999999999945" width="16.842105263157894" height="14.64421052631579" as="geometry"/>
+                </mxCell>
+                <mxCell id="140" value="" style="group;dashed=1;dashPattern=1 2;strokeWidth=3;strokeColor=default;perimeterSpacing=4;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="90" y="430" width="120" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="129" value="Mobile Apps&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#FFFFFF;fillColor=none;" parent="140" vertex="1">
+                    <mxGeometry width="120" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="125" value="" style="group" parent="140" vertex="1" connectable="0">
+                    <mxGeometry x="64.61538461538461" y="56" width="36.92307692307693" height="74.66666666666667" as="geometry"/>
+                </mxCell>
+                <mxCell id="123" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;sketch=0;fontColor=#FFFFFF;fillColor=#18141D;" parent="125" vertex="1">
+                    <mxGeometry width="36.92307692307693" height="74.66666666666667" as="geometry"/>
+                </mxCell>
+                <mxCell id="124" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/174/174836.png;" parent="125" vertex="1">
+                    <mxGeometry x="11.076923076923077" y="29.037037037037038" width="14.76923076923077" height="14.76923076923077" as="geometry"/>
+                </mxCell>
+                <mxCell id="127" value="" style="group" parent="140" vertex="1" connectable="0">
+                    <mxGeometry x="18.461538461538463" y="56" width="92.3076923076923" height="74.66666666666667" as="geometry"/>
+                </mxCell>
+                <mxCell id="117" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.iphone;strokeColor=#c0c0c0;sketch=0;fontColor=#FFFFFF;fillColor=#18141D;" parent="127" vertex="1">
+                    <mxGeometry width="36.92307692307692" height="74.66666666666667" as="geometry"/>
+                </mxCell>
+                <mxCell id="126" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Apple_logo_white.svg/1724px-Apple_logo_white.svg.png;" parent="127" vertex="1">
+                    <mxGeometry x="12.243692307692296" y="29.037037037037038" width="12.443076923076925" height="14.769230769230768" as="geometry"/>
+                </mxCell>
+                <mxCell id="133" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/5968/5968381.png;" parent="140" vertex="1">
+                    <mxGeometry x="92.30373626373633" y="9.333333333333334" width="18.461538461538463" height="18.461538461538463" as="geometry"/>
+                </mxCell>
+                <mxCell id="134" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png;" parent="140" vertex="1">
+                    <mxGeometry x="67.24879120879125" y="10.55599999999995" width="18.461538461538463" height="16.052307692307693" as="geometry"/>
+                </mxCell>
+                <mxCell id="143" style="edgeStyle=none;html=1;exitX=0.857;exitY=0.968;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FFFFFF;exitPerimeter=0;" parent="1" source="5" target="9" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="144" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.001;entryY=0.226;entryDx=0;entryDy=0;fontColor=#FFFFFF;entryPerimeter=0;" parent="1" source="2" target="9" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="146" style="edgeStyle=none;html=1;fontColor=#FFFFFF;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" target="2" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="312" y="313" as="sourcePoint"/>
+                        <mxPoint x="270" y="480" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="147" style="edgeStyle=none;html=1;exitX=0.406;exitY=0.978;exitDx=0;exitDy=0;entryX=0.591;entryY=-0.006;entryDx=0;entryDy=0;fontColor=#FFFFFF;exitPerimeter=0;entryPerimeter=0;" parent="1" source="5" target="2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="148" style="edgeStyle=none;html=1;exitX=0.053;exitY=0.961;exitDx=0;exitDy=0;entryX=0.101;entryY=-0.01;entryDx=0;entryDy=0;fontColor=#FFFFFF;exitPerimeter=0;entryPerimeter=0;" parent="1" source="5" target="129" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="149" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FFFFFF;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="129" target="9" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="279" y="482" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="150" style="edgeStyle=none;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontColor=#FFFFFF;exitX=0.001;exitY=0.88;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="9" target="129" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="283" y="543" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

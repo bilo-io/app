@@ -1,0 +1,85 @@
+.compute-loader {
+    position: relative;
+    width: 56px;
+    height: 56px;
+}
+
+.compute-loader div {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 10rem;
+    background: #0067FF;
+    opacity: 0;
+}
+
+
+.compute-loader div:nth-child(1) {
+    top: 0px;
+    left: 0px;
+    animation: compute-loader-anim 1.2s ease-in-out infinite;
+}
+
+.compute-loader div:nth-child(2) {
+    top: 0px;
+    left: 20px;
+    animation: compute-loader-anim 1.8s ease-in-out infinite;
+}
+
+.compute-loader div:nth-child(3) {
+    top: 0px;
+    left: 40px;
+    animation: compute-loader-anim 1.4s ease-in-out infinite;
+}
+
+
+.compute-loader div:nth-child(4) {
+    top: 20px;
+    left: 0px;
+    animation: compute-loader-anim 1.0s ease-in-out infinite;
+}
+
+.compute-loader div:nth-child(5) {
+    top: 20px;
+    left: 20px;
+    animation: compute-loader-anim 2s ease-in-out infinite;
+}
+
+.compute-loader div:nth-child(6) {
+    top: 20px;
+    left: 40px;
+    animation: compute-compute-loader-anim 1.7s ease-in-out infinite;
+}
+
+
+.compute-loader div:nth-child(7) {
+    top: 40px;
+    left: 0px;
+    animation: compute-loader-anim 1.3s ease-in-out infinite;
+}
+
+.compute-loader div:nth-child(8) {
+    top: 40px;
+    left: 20px;
+    animation: compute-loader-anim 1.9s ease-in-out infinite;
+}
+
+.compute-loader div:nth-child(9) {
+    top: 40px;
+    left: 40px;
+    animation: compute-loader-anim 1.5s ease-in-out infinite;
+}
+
+
+@keyframes compute-loader-anim {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    40%,
+    90% {
+        opacity: 0.1;
+    }
+}

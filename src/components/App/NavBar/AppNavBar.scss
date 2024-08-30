@@ -1,0 +1,196 @@
+@import '../../../styles/colors.scss';
+@import '../../../styles/mquery.scss';
+$margin: 0.5rem;
+$icon-size: 2rem;
+
+.navbar-container {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    z-index: 3;
+    height: 100%;
+    overflow: hidden;
+    overflow-y: auto;
+    transition: all .3s ease-in-out;
+
+    @include mobile {
+        // background-color: #0067FF;
+        backdrop-filter: blur(8px);
+        flex-direction: row;
+        justify-content: space-evenly;
+        position: absolute;
+        bottom: 0;
+        width: calc(100% - 0 * #{$margin});
+        height: 5rem;
+        // margin: $margin;
+
+        &.dark {
+            background-color: #000000;
+            color: #FFFFFF;
+        }
+
+        &.light {
+            background-color: #FFFFFF;
+            color: #000000;
+        }
+    }
+
+    @include tablet {
+        flex-direction: column;
+        // justify-content: space-between;
+        position: absolute;
+        width: 40rem;
+        height: calc(100% - 2 * #{$margin});
+        margin-left: $margin;
+        margin-right: $margin;
+        left: 0;
+        top: 0;
+
+        &.show-labels {
+            width: 30 !important;
+        }
+    }
+
+    @include desktop {
+        flex-direction: column;
+        position: fixed;
+        width: 40rem;
+        height: calc(100% - 2 * #{$margin});
+        margin: $margin;
+        transition: width .3s ease-in-out;
+        left: 0;
+        top: 0;
+
+        &.show-labels {
+            width: 30 !important;
+        }
+    }
+
+    @include large-desktop {
+        flex-direction: column;
+        position: fixed;
+        width: 40rem;
+        height: calc(100% - 2 * #{$margin});
+        margin: $margin;
+        transition: width .3s ease-in-out;
+        left: 0;
+        top: 0;
+
+        &.show-labels {
+            width: 30 !important;
+        }
+    }
+}
+
+.navbar-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin: 0.25rem;
+    margin-left: 0.5rem;
+    // color: #333;
+
+    @include mobile {
+        flex-direction: column;
+        // background-color: #FFFFFF00;
+
+        .label {
+            color: inherit;
+            text-align: center;
+            margin-top: 1rem;
+            font-size: 0.8rem;
+        }
+
+        .icon {
+            width: $icon-size;
+            // height: $icon-size;
+            cursor: pointer;
+            // background-color: $col-primary;
+            // border-radius: 100%;
+            // margin: 0.5rem;
+        }
+    }
+
+    @include tablet {
+        flex-direction: row;
+        // background-color: $col-primary;
+
+        .label {
+            max-width: 0;
+            width: 0;
+            opacity: 0;
+            color: inherit;
+        }
+
+        .icon,
+        span.fa {
+            width: $icon-size;
+            // height: $icon-size;
+            margin: 0.25rem;
+            // background-color: #FFFFFFDD;
+            // border-radius: 100%;
+            // margin: auto;
+            // margin-top: 0.5rem;
+            // margin-bottom: 0.5rem;
+        }
+    }
+
+    @include desktop {
+        flex-direction: row;
+
+        .label {
+            max-width: fit-content;
+            // color: $col-primary;
+            height: 2rem;
+            line-height: 2rem;
+            // margin: 1rem;
+            // text-align: center;
+        }
+
+        .icon {
+            width: $icon-size;
+            // height: $icon-size;
+            // background-color: $col-primary;
+            // border-radius: 100%;
+            // margin: 0.5rem;
+        }
+    }
+
+    @include large-desktop {
+        flex-direction: row;
+
+        .label {
+            max-width: fit-content;
+            height: 2rem;
+            line-height: 2rem; // text-align: center;
+            margin: 0.25rem;
+            // color: $col-primary;
+        }
+
+        .icon {
+            width: $icon-size;
+            // height: $icon-size;
+            // background-color: $col-primary;
+            // border-radius: 100%;
+            // margin: 1rem;
+        }
+    }
+}
+
+.top-wedge {
+    @include tablet {
+        width: 4rem;
+        height: 3rem;
+        background-color: $col-primary;
+        border-top-right-radius: 4rem;
+    }
+}
+
+.bottom-wedge {
+    @include tablet {
+        width: 4rem;
+        height: 3rem;
+        background-color: $col-primary;
+        border-bottom-right-radius: 4rem;
+    }
+}

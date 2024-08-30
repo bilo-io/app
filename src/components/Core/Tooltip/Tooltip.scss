@@ -1,0 +1,57 @@
+.tooltip-container {
+    position: relative;
+    // display: inline-block;
+}
+
+.tooltip-trigger {
+    cursor: pointer;
+}
+
+.tooltip-content {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    padding: 6px;
+    padding-right: 12px;
+    // background-color: #333;
+    // color: #fff;
+    border-radius: 8px;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+
+    &.top {
+        transform: translate(-50%, -2rem);
+    }
+
+    &.right {
+        transform: translate(1.8rem, -1.8rem);
+    }
+
+    &.bottom {
+        transform: translate(-50%, 2rem);
+    }
+
+    &.left {
+        transform: translateX(calc(-2rem - 100%), 0);
+    }
+
+    &.dark {
+        background-color: #000;
+        color: #eee;
+    }
+
+    &.light {
+        background-color: #eee;
+        color: #333;
+    }
+}
+
+.tooltip-content.clickable {
+    cursor: pointer;
+}
+
+.tooltip-trigger:hover+.tooltip-content,
+.tooltip-trigger.clickable:focus+.tooltip-content {
+    opacity: 1;
+}

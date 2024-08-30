@@ -1,0 +1,55 @@
+$breakpoint-mobile: 480px;
+$breakpoint-tablet: 768;
+$breakpoint-desktop: 1080px;
+$breakpoint-desktop-large: 1366px;
+
+
+@mixin hideAbove($breakpoint) {
+  @media (min-width: 0) and (max-width: $breakpoint) {
+    display: flex;
+  }
+
+  @media (min-width: $breakpoint) and (max-width: 1000000px) {
+    display: none;
+  }
+}
+
+@mixin hideBelow($breakpoint) {
+  @media (min-width: 0) and (max-width: $breakpoint) {
+    display: none;
+  }
+
+  @media (min-width: $breakpoint) and (max-width: 1000000px) {
+    display: flex;
+  }
+}
+
+.hide-below-mobile {
+  @include hideBelow($breakpoint-mobile);
+}
+
+.hide-above-mobile {
+  @include hideAbove($breakpoint-mobile);
+}
+
+.hide-below-tablet {
+  @include hideBelow($breakpoint-tablet);
+}
+
+.hide-above-tablet {
+  @include hideAbove($breakpoint-tablet);
+}
+
+.hide-below-desktop {
+  @include hideBelow($breakpoint-desktop);
+}
+
+.hide-above-desktop {
+  @include hideAbove($breakpoint-desktop);
+}
+
+// Temporary
+
+.hide-below-desktop-1290 {
+  @include hideBelow(1290px);
+}

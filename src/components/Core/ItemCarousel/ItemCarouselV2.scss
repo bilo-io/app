@@ -1,0 +1,47 @@
+/* ItemCarouselV2.css */
+.item-carousel-v2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-carousel-v2__current-item {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-carousel-v2__background-items {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-carousel-v2__item {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.item-carousel-v2__item.fade-out {
+    opacity: 0;
+}
+
+.item-carousel-v2__item.fade-in {
+    opacity: 1;
+}
+
+.item-carousel-v2__background-item {
+    opacity: 0.5;
+    margin: 0 0.5rem;
+    transform: scale(0.5);
+}

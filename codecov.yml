@@ -1,0 +1,18 @@
+ignore:
+  - "src/app/**/*.tsx"
+  - "src/app/**/*.ts"
+  - "src/App.tsx"
+  - "src/reportWebVitals.ts"
+  - "src/index.tsx"
+  - "src/serviceWorker.ts"
+  - "src/assets/**/*"
+  - "src/components/**/*"
+  - "src/features/**/*"
+  - "src/hooks/use-window-size.ts"
+  - "src/hooks/**/*.ts"
+  - "src/pages/**/*"
+  - "src/store/**/*"
+  - "src/styles/**/*"
+  - "src/utils/firebase.js"
+  - "test_*.rb"       # wildcards accepted
+  - "**/*.py"         # glob accepted

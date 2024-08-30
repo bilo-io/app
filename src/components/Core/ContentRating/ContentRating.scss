@@ -1,0 +1,55 @@
+.content-rating {
+    font-family: 'Arial', sans-serif;
+    // background-color: #f0f0f0;
+    // padding: 10px;
+    // border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 200px;
+    // margin: 10px;
+
+    .rating-header {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+
+    .rating-info {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .age-rating {
+            margin-bottom: 5px;
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-left: 1rem;
+        }
+
+        .content-type {
+            padding: 5px;
+            padding: {
+                left: 8px;
+                right: 8px;
+            };
+            margin-bottom: 3px;
+            border-radius: 3px;
+            opacity: 0.5;
+
+            &.r-rated {
+                background-color: #FF0000 !important; // Customize the color as needed
+                color: #fff;
+
+                padding: {
+                    left: 1rem;
+                    right: 1rem;
+                }
+            }
+
+            &.active {
+                background-color: #000000; // Customize the color as needed
+                color: #fff;
+                opacity: 1;
+            }
+        }
+    }
+}

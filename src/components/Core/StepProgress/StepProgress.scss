@@ -1,0 +1,30 @@
+@import '../../../styles/_colors.scss';
+
+.step-progress {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    background-color: #88888888;
+    width: fit-content;
+    height: fit-content;
+
+    &.vertical {
+        flex-direction: column-reverse;
+    }
+
+    .step {
+        width: 2rem;
+        height: 2rem;
+        background-color: $col-primary;
+
+        &.horizontal {
+            // height: 100%;
+            transition: all 0.3s ease-in-out;
+        }
+
+        &.vertical {
+            // width: 100%;
+            transition: all 0.3s ease-in-out;
+        }
+    }
+}

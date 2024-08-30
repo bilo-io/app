@@ -1,0 +1,53 @@
+$breakpoint-tablet: 688px;
+$breakpoint-desktop: 1080px;
+$breakpoint-mobile: 480px;
+
+.app-top-bar {
+    border-bottom: 1px solid #66666644;
+    position: fixed;
+    z-index: 40;
+    backdrop-filter: blur(3px);
+    width: 100%;
+
+    .item {
+        @include hideBelow($breakpoint-mobile);
+        z-index: 20;
+
+        &.active {
+            color: #0067FF;
+            font-style: bold;
+            border-bottom: 2px solid $col-primary;
+        }
+
+        &:hover {
+            color: #0067FF;
+            font-style: bold;
+            border-bottom: 2px solid $col-primary;
+        }
+    }
+
+    .desktop-logo {
+        @include hideBelow($breakpoint-mobile);
+    }
+
+    .mobile-title {
+        @include hideAbove($breakpoint-mobile);
+        // color: $col-text;
+        color: #F00;
+        height: 4rem;
+        line-height: 4rem;
+        font-weight: bold;
+    }
+
+    &.dark {
+        // background-color: #222222;
+        background-color: #0D1117;
+        color: #FAFAFA;
+    }
+
+    &.light {
+        background-color: #FAFAFA;
+        // color: #222222;
+        color: #0D1117;
+    }
+}

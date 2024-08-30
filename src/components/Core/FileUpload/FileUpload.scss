@@ -1,0 +1,14 @@
+label.upload {
+    cursor: pointer;
+    padding-top: 1rem;
+    border: 2px dashed #0066AF;
+    border-radius: 0.5rem;
+    width: 100%;
+    /* Style as you please, it will become the visible UI component. */
+}
+
+#upload-file {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+}
